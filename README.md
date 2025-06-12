@@ -41,6 +41,13 @@ git clone https://github.com/yourusername/ReconEXIF.git
 cd ReconEXIF
 pip install -r requirements.txt
 ```
+## ⚠️ Dependencies
+
+Install manually if needed:
+
+```bash
+pip install exifread PyPDF2 mutagen hachoir python-magic numpy Pillow colorama
+```
 
 ## 🔌 Optional Tools
 
@@ -83,13 +90,7 @@ python exif.py
 | `--steghide`     | Steganography extraction (Steghide) only        |
 | `--output`       | Save results to a JSON file                     |
 
-## ⚠️ Dependencies
 
-Install manually if needed:
-
-```bash
-pip install exifread PyPDF2 mutagen hachoir python-magic numpy Pillow colorama
-```
 ## 👨‍💻 Developers
 
 - **Spider Anongreyhat** – Telegram: [@Anonspideyy](https://t.me/Anonspideyy)
