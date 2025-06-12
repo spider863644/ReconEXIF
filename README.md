@@ -1,19 +1,10 @@
 # 🔍 ReconEXIF - Forensic Metadata Extraction Tool
 
-![ReconEXIF Banner](https://your-image-link.com/banner.png) <!-- Optional -->
 
 **Version 1.0 - Forensic Edition**  
 Developed by **Spider Anongreyhat** & **TheNooB**  
 Community: TermuxHackz Society  
 Telegram: [@Anonspideyy](https://t.me/Anonspideyy)
-
----
-
-## 📽️ Demo Video
-
-https://www.youtube.com/watch?v=YOUR_DEMO_VIDEO_LINK
-
-> 🔁 Replace the above link with your actual demo or walkthrough video.
 
 ---
 
@@ -62,4 +53,44 @@ pip install -r requirements.txt
   **Mac OS**
   ```bash
   brew install steghide
+  ```
+## 🛠️ Usage
+**Basic Usage**
+```bash
+python exif.py file.jpg
+python exif.py document.pdf
 ```
+**Specific Flags**
+```bash
+python exif.py file.jpg --photo_info --forensic --output result.json
+python exif.py audio.mp3 --audio_info
+python exif.py file.jpg --steghide
+```
+**Interactive Mode**
+```
+python exif.py
+```
+## 🔧 CLI Options
+
+| Option           | Description                                     |
+|------------------|-------------------------------------------------|
+| `--device_info`  | Basic file info                                 |
+| `--photo_info`   | Extract EXIF & GPS from image                   |
+| `--pdf_info`     | PDF metadata                                    |
+| `--audio_info`   | Audio metadata (ID3 tags)                       |
+| `--video_info`   | Video file metadata                             |
+| `--forensic`     | Hashes, steganography, entropy, timeline        |
+| `--steghide`     | Steganography extraction (Steghide) only        |
+| `--output`       | Save results to a JSON file                     |
+
+## ⚠️ Dependencies
+
+Install manually if needed:
+
+```bash
+pip install exifread PyPDF2 mutagen hachoir python-magic numpy Pillow colorama
+```
+## 👨‍💻 Developers
+
+- **Spider Anongreyhat** – Telegram: [@Anonspideyy](https://t.me/Anonspideyy)
+- **TheNooB** – Support & Community: TermuxHackz Society
