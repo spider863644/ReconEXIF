@@ -1,0 +1,9 @@
+exifread
+PyPDF2
+mutagen
+hachoir
+python-magic
+python-magic-bin
+colorama
+numpy
+Pillow
