@@ -107,4 +107,4 @@ This project is licensed under the [MIT License](LICENSE).
 Thanks to the following people who have contributed to this project:
 
 - [@SpiderAnongreyhat](https://github.com/Spider863644) – 💻 Developer & Maintainer
-- [@TheNooB](https://github.com/TheNooB4) – 🔧 Support & Testing
+- [@TheNooB](https://github.com/TheNooB4) – 🔧 Developer & Testing
