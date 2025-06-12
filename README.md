@@ -37,7 +37,7 @@ Telegram: [@Anonspideyy](https://t.me/Anonspideyy)
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/ReconEXIF.git
+git clone https://github.com/spider863644/ReconEXIF.git
 cd ReconEXIF
 pip install -r requirements.txt
 ```
@@ -102,3 +102,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 > Use responsibly. For educational and forensic purposes only.
 
+## 🤝 Contributors
+
+Thanks to the following people who have contributed to this project:
+
+- [@SpiderAnongreyhat](https://github.com/Spider863644) – 💻 Developer & Maintainer
+- [@TheNooB](https://github.com/TheNooB4) – 🔧 Support & Testing
