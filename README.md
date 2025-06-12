@@ -95,3 +95,10 @@ python exif.py
 
 - **Spider Anongreyhat** – Telegram: [@Anonspideyy](https://t.me/Anonspideyy)
 - **TheNooB** – Support & Community: TermuxHackz Society
+
+  ## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+> Use responsibly. For educational and forensic purposes only.
+
